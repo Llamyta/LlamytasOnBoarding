@@ -22,7 +22,7 @@ Dentro de un proyecto de React Native
 Instalar la libreria
 
 ```
-npm install LlamytasOnBoarding
+npm i llamytasonboarding
 ```
 
 En caso de que los iconos no esten instalados de manera correcta
@@ -44,10 +44,6 @@ Se puede utilizar cualquier icono de la libreria de Vector Icons
 disponibles en https://materialdesignicons.com
 
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [React Native](https://reactnative.dev) - El framework
@@ -57,7 +53,7 @@ Add additional notes about how to deploy this on a live system
 
 ```
 import React from 'react';
-import Onboarding from 'onboardingllamyta';
+import Onboarding from 'llamytasonboarding';
 import Imagenes from './images'
 
 
@@ -111,7 +107,7 @@ const data = [
 ];
 
 
-const App: () => React$Node = () => {
+const App= () => {
   return (
     <>
       <Onboarding data={data} onPressFinal={onPressFinal} onPressDismiss={onPressDismiss} />
