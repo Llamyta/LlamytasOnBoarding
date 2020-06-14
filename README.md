@@ -115,6 +115,15 @@ const App= () => {
 export default App;
 
 ```
+![View1](./assets/s1.png) 
+
+
+![View2](./assets/s2.png) 
+
+
+![View3](./assets/s3.png) 
+
+
 # Documentation
 
 ## Functions
