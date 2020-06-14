@@ -1,11 +1,8 @@
 # LlamytasOnBoarding
 Disenio onBoarding para la materia de PDM
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-De ser necesario deben instalarse las siguientes librerias:
+Instalar las siguientes librerias:
 
 ```
 npm install react-native-vector-icons
@@ -53,7 +50,7 @@ disponibles en https://materialdesignicons.com
 
 ```
 import React from 'react';
-import Onboarding from 'llamytasonboarding';
+import Onboarding from 'llamytasonboarding/src';
 import Imagenes from './images'
 
 
@@ -118,10 +115,35 @@ const App= () => {
 export default App;
 
 ```
+# Documentation
+
+## Functions
+
+| Name | Description | Type |
+| :---:          |     :---:      |         :---:  |
+| onPressFinal   | Final Step Function (navigate To)     | Func    |
+| onPressDismiss     | Dissmiss Steps (Navigate Directly To)       | Func      |
+
+
+## OnBoarding Info
+
+| Name | Description | Type |
+| :---:          |     :---:      |         :---:  |
+| title   | Describe screen Title     | string    |
+| text   | Secondary screen text     | string    |
+| Img   | Image Screen     | string    |
+| colorFondo   | Backgroun color, Right button text color, left button Backgroun color     | string    |
+| textBotonPrev   | Text for Left Button    | string    |
+| textBotonNext   | Text for Right Button    | string    |
+| color   | Right button bk color, left button border and text color, text and title color     | string    |
+| iconoNext   | Material Icons name for the icon     | string    |
+| iconoPrev   | Material Icons name for the icon     | string    |
+
+
 
 ## Versioning
 
-0.0.2
+0.0.3
 
 ## Authors
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { YellowBox } from 'react-native'
-import Onboarding from './src/View/Onboarding';
+import Onboarding from './src';
 import Imagenes from './images'
 
 
